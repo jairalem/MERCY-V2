@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #040345;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%232e0678'/%3E%3Cstop offset='1' stop-color='%232e0678' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23170569'/%3E%3Cstop offset='1' stop-color='%23170569' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2355079c'/%3E%3Cstop offset='1' stop-color='%2355079c' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23040345'/%3E%3Cstop offset='1' stop-color='%23040345' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%237909AA'/%3E%3Cstop offset='1' stop-color='%237909AA' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2336068D'/%3E%3Cstop offset='1' stop-color='%2336068D' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+/* HEADER */
+.logo {
+    margin-top: 4px;
+}
+
+.fa-sharp, .fa-solid, .fa-microchip {
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 5px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px; 
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: #bcb4b4
+}
+/* . */
+
+
+/* TITULOS Y PARRAFOS */
+.title {
+    position: relative;
+    top: 120px;
+}
+
+.mv6 {
+    font-size: clamp(2em, 5vw, 5em)
+}
+
+.pcards {
+    position: relative;
+    top: 165px;
+    font-size: 16px; 
+    display: inline-block;
+    padding: 10px 10px;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    background: black;
+    border-radius: px; 
+}
+
+/* IMAGENES */
+.blackblue {
+    width: 1000px;
+    position: relative;
+    top: 110px;
+}
+.blackcyan {
+    width: 1000px;
+    position: relative;
+    top: 20px;
+}
+
+.fullcolors {
+    width: 1000px;
+    position: relative;
+    top: 130px;
+}
+
+.carousel-inner {
+    max-width: 50rem;
+}
+
+.footer {
+    position: relative;
+    top: 400px;
+}
