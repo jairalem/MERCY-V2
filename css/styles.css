@@ -80,11 +80,12 @@ body {
     top: 130px;
 }
 
-.carousel-inner {
-    max-width: 50rem;
-}
-
 .footer {
     position: relative;
     top: 400px;
+}
+
+.formulario {
+    position: relative;
+    top: 140px;
 }
